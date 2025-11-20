@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulario</title>
+</head>
+<body> 
+  <h1>Formulario de bienvenida</h1> 
+  
+<form action="guardar.php" method="POST" accept-charset="utf-8">
+
+  <div class="row g-3">
+    <div class="col">
+      <input type="text" name="Nombre" class="form-control" placeholder="Nombre">
+    </div>
+
+    <div class="col">
+      <input type="text" name="Apellido" class="form-control" placeholder="Apellido">
+    </div>
+  </div>
+
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label for="em" class="form-label">Email</label>
+      <input type="email" class="form-control" id="em" name="em">
+    </div>
+
+    <div class="col-md-6">
+      <label for="con" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="con" name="con">
+    </div>
+
+    <div class="col-12">
+      <label for="direc" class="form-label">Direccion</label>
+      <input type="text" class="form-control" id="direc" name="direc" placeholder="1234 san pablo">
+    </div>
+
+    <div class="col-md-6">
+      <label for="ci" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="ci" name="ci">
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+  </div>
+
+</form>
+
+</body>
+</html>
